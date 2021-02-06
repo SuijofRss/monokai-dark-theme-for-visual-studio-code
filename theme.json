@@ -1,7 +1,10 @@
 /*
  * Created on Fri Feb 05 2021
- *
+ * 
  * 2021 gg
+ *
+ * [ Preference: Open User Settings ] => [ Workbench ] => [ Appearance ] => [ Color Customizations ] => [ edit in setting.json ]
+ *
  */
 {
     "terminal.external.linuxExec": "gnome-terminal",
