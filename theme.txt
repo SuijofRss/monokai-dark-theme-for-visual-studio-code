@@ -1,0 +1,92 @@
+/*
+ * Created on Fri Feb 05 2021
+ *
+ * 2021 gg
+ */
+{
+    "terminal.external.linuxExec": "gnome-terminal",
+    //"terminal.integrated.shell.linux": "/usr/bin/fish",
+    //"terminal.integrated.shellArgs.linux": ["-l","-d 3"],
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontFamily": "'UbuntuMono Nerd Font'",
+    "workbench.colorTheme": "Monokai",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.formatting": "vcFormat",
+    // "cmake.configureOnOpen": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "editor.fontWeight": "100",
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "editor.fontSize": 13,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+            // ============================================================
+            "editor.background": "#0B0B09",
+            // ============================================================
+            "terminal.background": "#0B0B09",
+            // ============================================================
+            "statusBar.background": "#0B0B09",
+            "statusBar.debuggingBackground": "#007CCC",
+            // ============================================================
+            "panel.background": "#0B0B09",
+            "panelTitle.activeBorder": "#00D1D1",
+            "panelTitle.inactiveForeground": "#FFFFFF",
+            // ============================================================
+            "activityBar.background": "#0B0B09",
+            "titleBar.activeBackground": "#0B0B09",
+            // ============================================================
+            "sideBar.background": "#0B0B09",
+            "sideBarSectionHeader.background": "#0B0B09",
+            "sideBarSectionHeader.foreground": "#00D1D1",
+            "sideBarSectionHeader.border": "#00D1D1",
+            "sideBar.border": "#686868",
+            // ============================================================
+            "activityBar.activeBorder": "#00D1D1",
+            // ============================================================
+            "dropdown.listBackground": "#0B0B09",
+            "dropdown.background": "#0B0B09",
+            "input.background": "#181814",
+            // ============================================================
+            "tab.inactiveBackground": "#0B0B09",
+            "tab.activeBorder": "#00D1D1",
+            "editorGroupHeader.tabsBackground": "#0B0B09"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "textMateRules": [
+                // ============================================================
+                // Resolución
+                {
+                    "name": "entity.name.scope-resolution",
+                    "scope": "entity.name.scope-resolution",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                // ============================================================
+                // Parametros
+                {
+                    "name": "entity.name.type",
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                // ============================================================
+                // Namespace
+                {
+                    "scope": "entity.name.namespace",
+                    "name": "entity.name.namespace",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                // ============================================================
+            ]
+        }
+    }
+}
+
+
