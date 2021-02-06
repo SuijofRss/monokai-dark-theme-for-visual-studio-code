@@ -22,6 +22,10 @@
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
     "editor.fontSize": 13,
     "diffEditor.ignoreTrimWhitespace": true,
+    
+    // ============================================================
+    // Color Customizations
+    
     "workbench.colorCustomizations": {
         "[Monokai]": {
             // ============================================================
@@ -90,6 +94,8 @@
             ]
         }
     }
+    
+    // ============================================================
 }
 
 
